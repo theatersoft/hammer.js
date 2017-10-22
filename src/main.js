@@ -29,19 +29,19 @@ import {
 import Manager from './manager';
 import Input from './inputjs/input-constructor';
 import TouchAction from './touchactionjs/touchaction-constructor';
-import TouchInput from './input/touch';
-import MouseInput from './input/mouse';
+//import TouchInput from './input/touch';
+//import MouseInput from './input/mouse';
 import PointerEventInput from './input/pointerevent';
-import SingleTouchInput from './input/singletouch';
-import TouchMouseInput from './input/touchmouse';
+//import SingleTouchInput from './input/singletouch';
+//import TouchMouseInput from './input/touchmouse';
 
 import Recognizer from  './recognizerjs/recognizer-constructor';
 import AttrRecognizer from './recognizers/attribute';
 import TapRecognizer from './recognizers/tap';
 import PanRecognizer from './recognizers/pan';
 import SwipeRecognizer from './recognizers/swipe';
-import PinchRecognizer from './recognizers/pinch';
-import RotateRecognizer from './recognizers/rotate';
+//import PinchRecognizer from './recognizers/pinch';
+//import RotateRecognizer from './recognizers/rotate';
 import PressRecognizer from './recognizers/press';
 
 import addEventListeners from './utils/add-event-listeners';
@@ -89,19 +89,19 @@ assign(Hammer, {
   Input,
   TouchAction,
 
-  TouchInput,
-  MouseInput,
+  //TouchInput,
+  //MouseInput,
   PointerEventInput,
-  TouchMouseInput,
-  SingleTouchInput,
+  //TouchMouseInput,
+  //SingleTouchInput,
 
   Recognizer,
   AttrRecognizer,
   Tap: TapRecognizer,
   Pan: PanRecognizer,
   Swipe: SwipeRecognizer,
-  Pinch: PinchRecognizer,
-  Rotate: RotateRecognizer,
+  //Pinch: PinchRecognizer,
+  //Rotate: RotateRecognizer,
   Press: PressRecognizer,
 
   on: addEventListeners,

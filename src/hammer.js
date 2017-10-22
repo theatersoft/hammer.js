@@ -1,8 +1,8 @@
 import ifUndefined from './utils/if-undefined';
 import { TOUCH_ACTION_COMPUTE } from './touchactionjs/touchaction-Consts';
 import { DIRECTION_HORIZONTAL } from './inputjs/input-consts';
-import RotateRecognizer from './recognizers/rotate';
-import PinchRecognizer from './recognizers/pinch';
+//import RotateRecognizer from './recognizers/rotate';
+//import PinchRecognizer from './recognizers/pinch';
 import SwipeRecognizer from './recognizers/swipe';
 import PanRecognizer from './recognizers/pan';
 import TapRecognizer from './recognizers/tap';
@@ -87,8 +87,8 @@ Hammer.defaults = {
    */
   preset: [
       // RecognizerClass, options, [recognizeWith, ...], [requireFailure, ...]
-      [RotateRecognizer, { enable: false }],
-      [PinchRecognizer, { enable: false }, ['rotate']],
+      //[RotateRecognizer, { enable: false }],
+      //[PinchRecognizer, { enable: false }, ['rotate']],
       [SwipeRecognizer, { direction: DIRECTION_HORIZONTAL }],
       [PanRecognizer, { direction: DIRECTION_HORIZONTAL }, ['swipe']],
       [TapRecognizer],
